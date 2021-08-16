@@ -4,12 +4,18 @@
     <script src="jquery.js"></script>
     <script src="popup.js"></script>
     <style>
-      body { width: 300px; }
-      textarea { width: 250px; height: 100px;}
+      body { width: 256px; text-align: center; display: block;}
+      .flex {display: flex; justify-content: space-between; align-items: center;}
+      textarea { width: 250px; height: 100px; display: block; margin-left: auto; margin-right: auto;}
+      button {width: 250px;}
     </style>
   </head>
   <body>
-    <textarea id="text"> </textarea>
-    <button id="paste">Translate to Chinglish</button>
+    <textarea id="text" placeholder="Translation result"></textarea>
+    <div class="flex">
+      <div>Chinese difficulty</div> <input id="difficulty" type="range" min="0" max="5" step="1"/>
+    </div>
+    <button id="translate">Translate selected text to Chinglish</button>
+    
   </body>
 </html>

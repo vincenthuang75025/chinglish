@@ -1,6 +1,6 @@
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
-    console.log(window.getSelection().toString());
     if (request.method == "getSelection") {
+      console.log([window.getSelection().toString(), request.difficulty]);
         sendResponse({'data': window.getSelection().toString()});
 
         // const url = 'https://p6era4zq99.execute-api.us-west-2.amazonaws.com/ServerlessHuggingFaceStack-testAF53AC38-8FVJp5hIbnMU';

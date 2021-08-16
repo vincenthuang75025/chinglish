@@ -1,5 +1,7 @@
 # Zero administration inference with AWS Lambda for :hugs:
 
+The code and the rest of this document is based heavily on a tutorial from the [AWS Compute Blog](https://aws.amazon.com/blogs/compute/hosting-hugging-face-models-on-aws-lambda/)
+
 ### Note: This is not production code and simply meant as a demo
 
 ## Overview

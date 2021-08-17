@@ -2,7 +2,7 @@
 
 This is a fun project I worked on to get more experience with NLP, serverless computing, and chrome extension development. It takes selected text in the browser and translates the text into Chinglish (a Chinese-English hybrid): 
 
-INSERT VIDEO HERE
+https://user-images.githubusercontent.com/23426990/129662869-1e5f8e69-e20c-4f0d-9aa4-ff2c3139ebce.mp4
 
 ## How It Works
 
